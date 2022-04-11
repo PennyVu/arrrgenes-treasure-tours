@@ -95,6 +95,16 @@ body {
   text-decoration: none;
 }
 
+ul li:hover {
+  background-color: #bea59b;
+  border: .3rem solid #bea59b;
+  border-radius: 1em;
+}
+
+div a:hover {
+  background-color: #bea59b;
+}
+
 .ship {
   padding: 2rem;
 }
