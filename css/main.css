@@ -49,7 +49,7 @@ body {
   align-items: center;
 }
 
-.nav a {
+a {
   color: #fff;
   padding: .5em;
   border-radius: 1em;
@@ -58,6 +58,7 @@ body {
 
 .banner {
   display: grid;
+  background-color: #000;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "banner";
@@ -95,14 +96,23 @@ body {
   text-decoration: none;
 }
 
-ul li:hover {
+a:hover {
   background-color: #bea59b;
-  border: .3rem solid #bea59b;
-  border-radius: 1em;
+  outline: .15rem solid #fff;
+  outline-offset: .2rem;
+}
+
+a:focus {
+  background-color: #bea59b;
+  outline: .15rem solid #fff;
+  outline-offset: .2rem;
 }
 
 div a:hover {
-  background-color: #bea59b;
+  background-color: #522806;
+  outline: .15rem solid #bea59b;
+  outline-offset: .2rem;
+  color: #fff;
 }
 
 .ship {
